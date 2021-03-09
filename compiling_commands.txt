@@ -1,0 +1,3 @@
+g++ -c clearScreen.cpp -o clearScreen.o
+g++ -c guessingGameOO.cpp -o guessingGameOO.o
+g++ -o guessingGameOO  guessingGameOO.o clearScreen.o
