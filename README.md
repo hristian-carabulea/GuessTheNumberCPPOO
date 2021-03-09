@@ -3,7 +3,6 @@
 -------------------------------------------------------------------------
 ### guessingGameOO.cpp: source file; screen is being cleared on start of new game.
 ### guessingGame.h    : header file where the guessingGame class is defined
-### guessingGameOO    : Linux executable file
 ### clearScreen.cpp   : source file; screen is being cleared on start of new game.
 ### clearScreen.h     : Windows executable file
 ### guessingGameOO.exe: Windows executable to be used from the command line or in PowerShell.
