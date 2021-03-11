@@ -32,32 +32,15 @@ int main() { // The guessing game
 
         myGuessingGame.numGuessAlreadyMade = 0;
 
-        myGuessingGame.setMinLimit(); // sets minLim
-        myGuessingGame.setMaxLimit(); // sets maxLim
-        myGuessingGame.setNumOfGuessesAllowed(); // sets numberOfGuessesAllowed
-        myGuessingGame.setNumberToBeGuessed(); // 
+        myGuessingGame.setMinLimit(); 
+        myGuessingGame.setMaxLimit(); 
+        myGuessingGame.setNumOfGuessesAllowed(); 
+        myGuessingGame.setNumberToBeGuessed();
         myGuessingGame.won = false;
 
         while ((myGuessingGame.numGuessAlreadyMade < myGuessingGame.numberOfGuessesAllowed) && !myGuessingGame.won) {
             myGuessingGame.setYourGuess();
-
-            if ((myGuessingGame.yourGuessEntry >= myGuessingGame.minLim) && (myGuessingGame.yourGuessEntry <= myGuessingGame.maxLim)) {
-                myGuessingGame.numGuessAlreadyMade++;
-                if (myGuessingGame.yourGuessEntry == myGuessingGame.numberToBeGuessed) {
-                    cout << "Congratulations! You guessed the correct number: "
-                        << myGuessingGame.yourGuessEntry << "!" << endl;
-                    myGuessingGame.won = true;
-                }
-                else if (myGuessingGame.yourGuessEntry > myGuessingGame.numberToBeGuessed) {
-                    cout << "Your guess is higher." << endl;
-                }
-                else if (myGuessingGame.yourGuessEntry < myGuessingGame.numberToBeGuessed) {
-                    cout << "Your guess is lower." << endl;
-                }
-                else {
-                    cout << "Error1" << endl;
-                }
-            }
+            myGuessingGame.checkYourGuess();
         }
 
         if (myGuessingGame.won) {

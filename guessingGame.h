@@ -43,7 +43,8 @@ public: //**********************************************************
     void setNumberToBeGuessed() {
 
         srand((unsigned)time(0));
-        numberToBeGuessed = rand() % (maxLim - minLim + 1) + minLim;
+        secret_number = rand() % (maxLim - minLim + 1) + minLim;
+
     }
     //*****************************
     int setNumOfGuessesAllowed () {
@@ -74,6 +75,27 @@ public: //**********************************************************
         }
         return(0);
     };
+
+    int checkYourGuess () {
+        if ((yourGuessEntry >= minLim) && (yourGuessEntry <= maxLim)) {
+            numGuessAlreadyMade++;
+            if (yourGuessEntry == secret_number) {
+                std::cout << "Congratulations! You guessed the correct number: "
+                    << yourGuessEntry << "!" << std::endl;
+                won = true;
+            }
+            else if (yourGuessEntry > secret_number) {
+                std::cout << "Your guess is higher." << std::endl;
+            }
+            else if (yourGuessEntry < secret_number) {
+                std::cout << "Your guess is lower." << std::endl;
+            }
+            else {
+                std::cout << "Error1" << std::endl;
+            }
+        }
+        return(0);
+    };
     //*****************************
     bool isNumber(std::string str) {
         for (int i = 0; i < str.length(); i++) {
@@ -98,5 +120,5 @@ private:
 //Member functions
 
 //Data Members
-
+int secret_number;
 };
