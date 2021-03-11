@@ -11,7 +11,7 @@
 ### guessingGameOO.exe: Windows executable file to be used from the command line or in PowerShell.
 * SHA-256:  fe4b0719c275e04141ac835b8aa5a93ee8b6aec6eeabdb1d39860e435947f68c
 * VirusTotal (*Ctrl+click to open in a new tab window*): https://www.virustotal.com/gui/file/fe4b0719c275e04141ac835b8aa5a93ee8b6aec6eeabdb1d39860e435947f68c/
-### If the game is not workind in Windows, then install the Visual C++ Redistributable package. 
+### VC_redist.x86.exe: If the game is not workind in Windows, then install the Visual C++ Redistributable package. 
 * SHA-256: 4521ed84b9b1679a706e719423d54ef5e413dc50dde1cf362232d7359d7e89c4
 * Virustotal (*Ctrl+click to open in a new tab window*): https://www.virustotal.com/gui/file/4521ed84b9b1679a706e719423d54ef5e413dc50dde1cf362232d7359d7e89c4/
 
