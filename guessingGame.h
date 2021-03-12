@@ -3,8 +3,7 @@
 #include <ctime>
 
 class guessingGame {
-
-public: //**********************************************************
+public:
 // Member functions
     //*****************************
     int setMinLimit () {
@@ -75,7 +74,7 @@ public: //**********************************************************
         }
         return(0);
     };
-
+    //*****************************
     int checkYourGuess () {
         if ((yourGuessEntry >= minLim) && (yourGuessEntry <= maxLim)) {
             numGuessAlreadyMade++;
@@ -104,7 +103,7 @@ public: //**********************************************************
         }
         return true;
     };
-    //*****************************
+
     //Data Members
     int numberOfGuessesAllowed;
     int yourGuessEntry;
