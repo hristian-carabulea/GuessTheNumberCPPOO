@@ -17,8 +17,6 @@ using namespace std;
 
 int main() { // The guessing game
     guessingGame myGuessingGame;
-    myGuessingGame.won = false;  
-    char playAgain;
 
     do { // runs as long as the user chooses y to play again
 
