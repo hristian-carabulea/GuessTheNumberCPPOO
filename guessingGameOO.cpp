@@ -1,12 +1,7 @@
 #include <iostream>
-#include <string>
-#include <cstdlib> 
-#include <ctime>
 #include <stdio.h>
-#include <stdlib.h> /*for system()*/
 #include "clearScreen.h"
 #include "guessingGame.h"
-
 using namespace std;
 
 #ifdef __cplusplus__
