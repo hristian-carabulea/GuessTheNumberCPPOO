@@ -6,14 +6,10 @@
 ### clearScreen.cpp   : source file where screen is being cleared.
 ### clearScreen.h     : clearScreen header file.
 ### guessingGameOO    : Linux executable file to be accessed from the Linux BASH.
-* SHA-256: 53c8fbe0a752b58735b3b7b20c1643070f928627f77afb43e1d8524e45093cf6
-* VirusTotal (*Ctrl+click to open in a new tab window*): https://www.virustotal.com/gui/file/53c8fbe0a752b58735b3b7b20c1643070f928627f77afb43e1d8524e45093cf6/
+* SHA-256: ab90873c13ca7deeebe9b23d63dde314450aed1f2eb835e1dade3176b548ce74
 ### guessingGameOO.exe: Windows executable file to be used from the command line or in PowerShell.
-* SHA-256:  fe4b0719c275e04141ac835b8aa5a93ee8b6aec6eeabdb1d39860e435947f68c
-* VirusTotal (*Ctrl+click to open in a new tab window*): https://www.virustotal.com/gui/file/fe4b0719c275e04141ac835b8aa5a93ee8b6aec6eeabdb1d39860e435947f68c/
+* SHA-256:  SHA256: FBE122195FC7152F0285D87402FBAAA9C37DBDF471A57CE529FE4FB420E2E541
 ### VC_redist.x86.exe: If the game is not working in Windows, then install the Visual C++ Redistributable package. 
 * SHA-256: 4521ed84b9b1679a706e719423d54ef5e413dc50dde1cf362232d7359d7e89c4
-* Virustotal (*Ctrl+click to open in a new tab window*): https://www.virustotal.com/gui/file/4521ed84b9b1679a706e719423d54ef5e413dc50dde1cf362232d7359d7e89c4/
-
 * Reference: https://support.microsoft.com/en-us/topic/the-latest-supported-visual-c-downloads-2647da03-1eea-4433-9aff-95f26a218cc0
 -------------------------------------------------------------------------
