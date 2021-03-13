@@ -2,7 +2,7 @@
 # Desc: Simple Command Line Guessing Game in C++ for Linux and Windows using Object Oriented technology. Improved.
 -------------------------------------------------------------------------
 ### guessingGameOO.cpp: guessingGameOO source file.
-### guessingGame.h    : guessingGame class header file.
+### guessingGameOO.h  : guessingGame class header file.
 ### clearScreen.cpp   : source file where screen is being cleared.
 ### clearScreen.h     : clearScreen header file.
 ### guessingGameOO    : Linux executable file to be accessed from the Linux BASH.
