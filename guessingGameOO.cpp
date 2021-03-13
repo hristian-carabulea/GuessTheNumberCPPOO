@@ -1,7 +1,7 @@
 #include <iostream>
 #include <stdio.h>
 #include "clearScreen.h"
-#include "guessingGame.h"
+#include "guessingGameOO.h"
 using namespace std;
 
 #ifdef __cplusplus__
@@ -52,4 +52,3 @@ int main() { // The guessing game
     return 0;
 }
 
-//******************************************************************
