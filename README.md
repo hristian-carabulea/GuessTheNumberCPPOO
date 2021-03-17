@@ -1,6 +1,7 @@
 -------------------------------------------------------------------------
 # Simple Command Line Guess-The-Number Game in C++ for Linux and Windows using Object Oriented technology.
 -------------------------------------------------------------------------
+### guessingGame.py   : Python version just for fun. :-)
 ### guessingGameOO.cpp: guessingGameOO source file.
 ### guessingGameOO.h  : guessingGame class header file.
 ### clearScreen.cpp   : source file where screen is being cleared.
@@ -12,6 +13,4 @@
 ### VC_redist.x86.exe : If the game is not working in Windows, then install the Visual C++ Redistributable package. 
 * SHA-256: 4521ed84b9b1679a706e719423d54ef5e413dc50dde1cf362232d7359d7e89c4
 * Reference: https://support.microsoft.com/en-us/topic/the-latest-supported-visual-c-downloads-2647da03-1eea-4433-9aff-95f26a218cc0
-### guessingGame.py   : Python version just for fun. :-)
-
 -------------------------------------------------------------------------
