@@ -1,5 +1,5 @@
 -------------------------------------------------------------------------
-# Desc: Simple Command Line Guessing Game in C++ for Linux and Windows using Object Oriented technology. Improved.
+# Desc: Simple Command Line Guess-The-Number Game in C++ for Linux and Windows using Object Oriented technology. Improved.
 -------------------------------------------------------------------------
 ### guessingGameOO.cpp: guessingGameOO source file.
 ### guessingGameOO.h  : guessingGame class header file.
