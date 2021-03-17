@@ -5,7 +5,9 @@
 ### guessingGameOO.h  : guessingGame class header file.
 ### clearScreen.cpp   : source file where screen is being cleared.
 ### clearScreen.h     : clearScreen header file.
+-------------------------------------------------------------------------
 ### guessingGame.py   : Python version just for fun. :-)
+-------------------------------------------------------------------------
 ### guessingGameOO    : Linux executable file to be accessed from the Linux BASH.
 * SHA-256: ab90873c13ca7deeebe9b23d63dde314450aed1f2eb835e1dade3176b548ce74
 ### guessingGameOO.exe: Windows executable file to be used from the command line or in PowerShell.
