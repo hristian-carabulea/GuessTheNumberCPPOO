@@ -2,6 +2,9 @@
 #include <string>
 #include <ctime>
 
+/* 
+2021.04.07: removed all the warnings by initializing all the variables in the data members section.
+*/
 class guessingGame {
 public:
 // Member functions
@@ -105,18 +108,18 @@ public:
     };
 
     //Data Members
-    int numberOfGuessesAllowed;
-    int yourGuessEntry;
-    int minLim;
-    int maxLim;
+    int numberOfGuessesAllowed = 0;
+    int yourGuessEntry = 0;
+    int minLim = 0;
+    int maxLim = 0;
     int numGuessAlreadyMade = 0;
-    bool won;
-    int numberToBeGuessed;
-    char playAgain;
+    bool won = false;
+    int numberToBeGuessed = 0;
+    char playAgain = 'n';
 //******************************************************************
 private:
 //Member functions
 
 //Data Members
-int secret_number;
+int secret_number = 0;
 };

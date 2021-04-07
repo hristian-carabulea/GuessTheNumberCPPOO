@@ -10,13 +10,15 @@ using namespace std;
   #include <stdlib.h>
 #endif
 
+/*
+The source and executable files (both Win & Lin) are stored on https://github.com/hristian-carabulea/guessingGameOO
+*/
+
 int main() { // The guessing game
     guessingGame myGuessingGame;
 
     do { // runs as long as the user chooses y to play again
-
         clearScreen();
-
         cout << "*** The Guessing Game ***" << endl  // instructions for user
             << " To win this game, you must guess the randomly chosen number" << endl
             << "    1. Within the number of guesses you've entered." << endl
@@ -24,7 +26,6 @@ int main() { // The guessing game
             << endl << "************************" << endl;
 
         myGuessingGame.numGuessAlreadyMade = 0;
-
         myGuessingGame.setMinLimit(); 
         myGuessingGame.setMaxLimit(); 
         myGuessingGame.setNumOfGuessesAllowed(); 
@@ -51,4 +52,3 @@ int main() { // The guessing game
 
     return 0;
 }
-
