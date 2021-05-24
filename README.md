@@ -6,7 +6,7 @@
 ### clearScreen.cpp   : source file where screen is being cleared.
 ### clearScreen.h     : clearScreen header file.
 -------------------------------------------------------------------------
-### guessingGame.py   : Python version just for fun. :-)
+### guessingGame.py   : Python 3.8.x version just for fun. :-)
 -------------------------------------------------------------------------
 ### guessingGameOO    : Linux executable file to be accessed from the Linux BASH.
 * SHA-256: 89B746B4DBF4D2261B713517DEE9B7F8E8F4248E74C45847841EDC2B55B55AAA
